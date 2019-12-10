@@ -107,7 +107,7 @@ class ReadonlyPlugin(gdb_shell.GdbPlugin):
     current command context.
 
     Returns:
-      The ID of the currenly selected thread.
+      The ID of the currently selected thread.
     """
     if self.inferior.is_running:
       return self.inferior.current_thread
